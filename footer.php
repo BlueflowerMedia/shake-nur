@@ -8,7 +8,6 @@
  *
  * @package blueflowedmedia
  */
-
 ?>
 
 	</div><!-- #content -->
@@ -17,9 +16,7 @@
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
-        <p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
-      </div>
-      <div class="footer-right flex1">
+        <p id="footer-text">&copy; <?php the_time('Y') ?> Shake Nur Management. All Rights Reserved.</p>
       </div>
     </div>
 </footer>

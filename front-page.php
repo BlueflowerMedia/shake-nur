@@ -1,7 +1,20 @@
 <?php get_header(); ?>
 
-<div class="container">
-  Hello
-</div>
+<!-- banner -->
+
+
+<!-- About us -->
+
+
+<!-- Home Building -->
+
+
+<!-- Gallery -->
+
+
+
+<!--Contact us-->
+
+
 
 <?php get_footer(); ?>
