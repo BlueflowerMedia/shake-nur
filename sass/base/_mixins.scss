@@ -1,0 +1,87 @@
+/* MEDIA QUERIES */
+@mixin mobile {
+  @media (max-width: #{$mobile-breakpoint}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$mobile-breakpoint}) and (max-width: #{$tablet-breakpoint - 1px}) {
+    @content;
+  }
+}
+@mixin retina {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
+@mixin print {
+  @media print {
+    @content;
+  }
+}
+// Slanted divs
+@mixin slanted-edge($corner, $x, $y) {
+  @if $corner == top-left {
+    clip-path: polygon($x $y, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon($x $y, 100% 0, 100% 100%, 0 100%);
+
+  } @else
+  if $corner == top-right {
+    clip-path: polygon(0 0, $x $y, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, $x $y, 100% 100%, 0 100%);
+
+  } @else
+  if $corner == bottom-right {
+    clip-path: polygon(0 0, 100% 0, $x $y, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, $x $y, 0 100%);
+
+  } @else
+  if $corner == bottom-left {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, $x $y);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, $x $y);
+
+  }
+}
+@mixin slanted-div($tlx, $tly, $trx, $try, $brx, $bry, $blx, $bly) {
+  clip-path: polygon($tlx $tly, $trx $try, $brx $bry, $blx $bly);
+  -webkit-clip-path: polygon($tlx $tly, $trx $try, $brx $bry, $blx $bly);
+
+}
+// Animation
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin box($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

@@ -1,0 +1,55 @@
+* {
+	z-index: 999;
+}
+
+.content {
+	background: white;
+}
+
+.container {
+	padding: 50px 10%;
+	@include tablet {
+		padding: 50px 5%;
+	}
+	@include mobile {
+		padding: 50px 5%;
+	}
+
+	.row {
+		margin: 20px 0;
+	}
+}
+// FLEX GRID
+
+%flex {
+	display: flex;
+}
+
+.flex-row {
+	@extend %flex;
+	flex-flow: row wrap;
+}
+
+.flex-column {
+	@extend %flex;
+	flex-flow: column;
+}
+
+.flex-column,
+.flex-row {
+	.flex1 {
+		flex: 1;
+	}
+
+	.flex2 {
+		flex: 2;
+	}
+
+	.flex3 {
+		flex: 3;
+	}
+
+	.flex4 {
+		flex: 4;
+	}
+}
