@@ -1678,6 +1678,9 @@ body {
         text-align: center;
         font-size: 1.24vw;
         margin: 2vw; }
+        @media screen and (max-width: 1400px) {
+          .contactus .contactus-container .contactus-middle p {
+            font-size: 1.8vw; } }
         @media screen and (max-width: 767px) {
           .contactus .contactus-container .contactus-middle p {
             font-size: 3vw; } }

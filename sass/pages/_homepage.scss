@@ -433,6 +433,10 @@ body {
         text-align: center;
         font-size: 1.24vw;
         margin: 2vw;
+        @media screen and (max-width:1400px){
+          font-size: 1.8vw;
+        }
+
         @media screen and (max-width:767px){
           font-size: 3vw;
         }
@@ -504,13 +508,11 @@ body {
             .first{
               margin-right: none;
             }
-
           }
 
           textarea{
             width: 100%;
           }
-
           #wpcf7-f6-o1 > form > div.one-row > div:nth-child(1) > span > input{
             width: 70vw;
           }
