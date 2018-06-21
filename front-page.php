@@ -4,7 +4,7 @@
 
 
 <!-- About us -->
-<section class="about-us">
+<section class="about-us" id="about">
   <div class="about-top">
     <p>
       <img id="hammer" src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-hammer-icon.svg" alt="image">
@@ -58,7 +58,7 @@
 
 
 <!-- Home Building -->
-<section class="home-building">
+<section class="home-building" id="homebuilding">
   <div class="home-building-top">
     <p>
       <img id="hammer" src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-hammer-icon.svg" alt="image">
@@ -102,7 +102,7 @@
 
 
   <!-- Gallery  -->
-  <div class="gallery-top">
+  <div class="gallery-top" id="gallery">
     <p>
       <img id="hammer" src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-hammer-icon.svg" alt="image">
       Gallery
