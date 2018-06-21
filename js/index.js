@@ -1,245 +1,113 @@
-var path = window.location.pathname;
-var page = path.split("/")
-var pageName = page[page.length - 2];
-
-function runRellax() {
-  var rellax = new Rellax('.fbox');
-}
-
-// navbar
-function navbar() {
-  var navbar = $("#site-navigation");
-  var scroll = $(window).scrollTop();
-  if (scroll > 0) {
-    navbar.addClass("scroll-color");
-  } else {
-    navbar.removeClass("scroll-color");
-  }
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 0) {
-      navbar.addClass("scroll-color");
-    } else {
-      navbar.removeClass("scroll-color");
-    }
-  });
-};
-
-
-// scrollReveal
-window.sr = ScrollReveal({
-  reset: false,
-  origin: 'top',
-  distance: '10%',
-  opacity: 0,
-  scale: 1,
-  delay: 200,
-  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-  duration: 1000,
-})
-
-
-// client logo slider
-function runCarousel() {
-  $(".client-logo-slider").owlCarousel({
-    items: 3,
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
-  });
-}
 
 
 
-// contact js
-function formSwitch() {
-  var formBtn1 = $("#form-btn1");
-  var formBtn2 = $("#form-btn2");
-
-  formBtn1.click(function() {
-    $("#form1").addClass("active");
-    $("#form2").removeClass("active");
-    $(this).removeClass("form2");
-  });
-
-  formBtn2.click(function() {
-    $("#form2").addClass("active");
-    $("#form1").removeClass("active");
-    formBtn1.addClass("form2");
-  });
-}
-
-
-
-// team page image slider
-function teamImagePlayer() {
-  setInterval(function() {
-    var next = $(".slide .active").removeClass("active").next(".image");
-    if (!next.length) {
-      next = $(".slide .image:first");
-    }
-    var rangeTop = (Math.floor(Math.random() * 15) + 0).toString() + "%";
-    var rangeLeft = (Math.floor(Math.random() * 10) + 10).toString() + "%";
-    next.css("top", rangeTop);
-    next.css("left", rangeLeft);
-
-    next.addClass("active");
-  }, 500);
-}
-
-// team members hover effect
-
-// function teamHover() {
-//   var pic2 = document.getElementById('pic2');
-//   var pic3 = document.getElementById('pic3');
+// document.getElementById("page1").style.display = "block";
+// document.getElementById("page2").style.display = "none";
+// document.getElementById("page3").style.display = "none";
 //
-//   pic2.onmouseout = function() {
-//     this.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg";
-//     pic3.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg";
+// function openPage(evt, pageNumber) {
+//   var i, tabcontent, tablinks;
+//   tabcontent = document.getElementsByClassName("tabcontent");
+//
+//   for (i = 0; i < tabcontent.length; i++) {
+//     tabcontent[i].style.display = "none";
 //   }
-//   pic2.onmouseover = function() {
-//     this.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
-//     pic3.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
+//
+//   tablinks = document.getElementsByClassName("tablinks");
+//
+//   for (i = 0; i < tablinks.length; i++) {
+//     tablinks[i].className = tablinks[i].className.replace(" active", "");
 //   }
+//
+//   document.getElementById(pageNumber).style.display = "block";
+//   evt.currentTarget.className += " active";
 // }
 
 
 
-// Particle JS in header in homepage
-function runParticles() {
-  particlesJS("particles", {
-    "particles": {
-      "number": {
-        "value": 200,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": "#1d72f7"
-      },
-      "shape": {
-        "type": "circle",
-        "stroke": {
-          "width": 0,
-          "color": "#000000"
-        },
-        "polygon": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
-      },
-      "opacity": {
-        "value": 0.21646062821684559,
-        "random": true,
-        "anim": {
-          "enable": true,
-          "speed": 6.4154099771806266,
-          "opacity_min": 1,
-          "sync": true
-        }
-      },
-      "size": {
-        "value": 3,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 40,
-          "size_min": 0.1,
-          "sync": false
-        }
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 112.2388442605866,
-        "color": "#1d72f7",
-        "opacity": 0.6173136434332263,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 1,
-        "direction": "none",
-        "random": false,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": false,
-        "attract": {
-          "enable": false,
-          "rotateX": 600,
-          "rotateY": 1200
-        }
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": false,
-          "mode": "repulse"
-        },
-        "onclick": {
-          "enable": false,
-          "mode": "push"
-        },
-        "resize": true
-      },
-      "modes": {
-        "grab": {
-          "distance": 400,
-          "line_linked": {
-            "opacity": 1
-          }
-        },
-        "bubble": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
-          "speed": 3
-        },
-        "repulse": {
-          "distance": 200,
-          "duration": 0.4
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
-        }
-      }
-    },
-    "retina_detect": true
-  });
+const galleryItem = document.getElementsByClassName("gallery-item");
+const lightBoxContainer = document.createElement("div");
+const lightBoxContent = document.createElement("div");
+const lightBoxImg = document.createElement("img");
+const lightBoxPrev = document.createElement("div");
+const lightBoxNext = document.createElement("div");
+
+lightBoxContainer.classList.add("lightbox");
+lightBoxContent.classList.add("lightbox-content");
+lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
+lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+
+lightBoxContainer.appendChild(lightBoxContent);
+lightBoxContent.appendChild(lightBoxImg);
+lightBoxContent.appendChild(lightBoxPrev);
+lightBoxContent.appendChild(lightBoxNext);
+
+document.body.appendChild(lightBoxContainer);
+
+let index = 1;
+
+function showLightBox(n) {
+    if (n > galleryItem.length) {
+        index = 1;
+    } else if (n < 1) {
+        index = galleryItem.length;
+    }
+    let imageLocation = galleryItem[index-1].children[0].getAttribute("src");
+    lightBoxImg.setAttribute("src", imageLocation);
 }
 
-function postHeight() {
-  $(".post").height($(".post-info").outerHeight()+450);
+function currentImage() {
+    lightBoxContainer.style.display = "block";
+
+    let imageIndex = parseInt(this.getAttribute("data-index"));
+    showLightBox(index = imageIndex);
+}
+for (let i = 0; i < galleryItem.length; i++) {
+    galleryItem[i].addEventListener("click", currentImage);
 }
 
-// global functions
-navbar();
-sr.reveal($('.sr'));
-sr.reveal($('h1'));
-sr.reveal($('p'));
+function slideImage(n) {
+    showLightBox(index += n);
+}
+function prevImage() {
+    slideImage(-1);
+}
+function nextImage() {
+    slideImage(1);
+}
+lightBoxPrev.addEventListener("click", prevImage);
+lightBoxNext.addEventListener("click", nextImage);
+
+function closeLightBox() {
+    if (this === event.target) {
+        lightBoxContainer.style.display = "none";
+    }
+}
+lightBoxContainer.addEventListener("click", closeLightBox);
 
 
-if (pageName == "blueflowermedia") {
-  runParticles();
-  runCarousel();
-  runRellax();
-} else if (pageName == "team") {
-  teamImagePlayer();
-} else if (pageName == "contact") {
-  formSwitch();
-} else if (pageName == "blog") {
-  postHeight();
+
+
+
+
+document.getElementById("gallery-1").style.display = "flex";
+document.getElementById("gallery-2").style.display = "none";
+document.getElementById("gallery-3").style.display = "none";
+
+function openPage(evt, pageNumber) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("gallery-container");
+
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(pageNumber).style.display = "flex";
+  evt.currentTarget.className += " active";
 }

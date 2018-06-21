@@ -25,7 +25,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 @import url("//fonts.googleapis.com/css?family=Arvo:300,400,600,700");
-@import url("//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("//fonts.googleapis.com/css?family=Arial:300,400,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1213,7 +1213,7 @@ html {
 p, a {
   font-size: 1rem;
   margin-bottom: 1rem;
-  font-family: "Roboto Slab", serif;
+  font-family: "Arvo", serif;
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.6rem; }
 
@@ -1239,7 +1239,7 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Arial", serif; }
 
 h4 {
   font-size: 1.414rem; }
@@ -1383,3 +1383,351 @@ nav#site-navigation .nav-middle {
 @media screen and (max-width: 600px) {
   #footer-text {
     font-size: 100%; } }
+.about-us {
+  position: relative; }
+  .about-us .about-top p {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-top: 4vw;
+    padding-bottom: 4vw; }
+    .about-us .about-top p img {
+      height: 3.5vw;
+      width: 3.5vw; }
+  @media screen and (max-width: 457px) {
+    .about-us .about-top p {
+      font-size: 8vw;
+      padding-top: 7vw;
+      padding-bottom: 7vw; }
+      .about-us .about-top p img {
+        height: 8vw;
+        width: 8vw; } }
+  .about-us .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 6vw auto;
+    max-width: 1200px; }
+    .about-us .about-container .about-top p {
+      text-align: center;
+      font-size: 4vw;
+      font-weight: 700; }
+      .about-us .about-container .about-top p img {
+        height: 3.5vw;
+        width: 3.5vw; }
+    .about-us .about-container .about-center {
+      columns: 2 100px;
+      column-gap: 100px;
+      margin-top: 50px; }
+      .about-us .about-container .about-center .about-center-left h3 {
+        margin-top: 0px; }
+    .about-us .about-container .about-bottom {
+      columns: 2 100px;
+      column-gap: 100px;
+      margin-top: 50px; }
+      @media screen and (max-width: 500px) {
+        .about-us .about-container .about-bottom {
+          margin-top: 0; } }
+      .about-us .about-container .about-bottom .about-bottom-left h3 {
+        margin-top: 0px; }
+
+.home-building {
+  background-color: #F3F3F4; }
+  .home-building .home-building-top p {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-top: 4vw;
+    padding-bottom: 4vw; }
+    .home-building .home-building-top p img {
+      height: 3.5vw;
+      width: 3.5vw; }
+  @media screen and (max-width: 457px) {
+    .home-building .home-building-top p {
+      font-size: 8vw;
+      padding-top: 7vw;
+      padding-bottom: 7vw; }
+      .home-building .home-building-top p img {
+        height: 8vw;
+        width: 8vw; } }
+  .home-building .home-building-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 0vw auto;
+    max-width: 1200px;
+    padding-bottom: 7vw; }
+    .home-building .home-building-container .home-building-top p {
+      text-align: center;
+      font-size: 4vw;
+      font-weight: 700; }
+      .home-building .home-building-container .home-building-top p img {
+        height: 3.5vw;
+        width: 3.5vw; }
+    .home-building .home-building-container .home-building-middle {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .home-building .home-building-container .home-building-middle .home-middle-left {
+        flex: 1; }
+        .home-building .home-building-container .home-building-middle .home-middle-left img {
+          max-width: 100%;
+          margin-top: 100px;
+          padding-right: 20px;
+          padding-bottom: 20px; }
+      .home-building .home-building-container .home-building-middle .home-middle-right {
+        flex: 1; }
+        .home-building .home-building-container .home-building-middle .home-middle-right p {
+          margin-bottom: 0px; }
+      @media screen and (max-width: 950px) {
+        .home-building .home-building-container .home-building-middle {
+          flex-direction: column; }
+          .home-building .home-building-container .home-building-middle .home-middle-left img {
+            margin-top: 20px;
+            padding: 0px;
+            margin: 0px; } }
+    .home-building .home-building-container .home-building-bottom p {
+      margin-top: 0px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff; }
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto 6vw auto;
+  padding: 10px;
+  max-width: 1200px;
+  background-color: #fff;
+  width: 70%;
+  margin: 6vw auto;
+  padding: 10px; }
+
+.gallery-top p {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 700;
+  padding-top: 4vw;
+  padding-bottom: 4vw; }
+  .gallery-top p img {
+    height: 3.5vw;
+    width: 3.5vw; }
+@media screen and (max-width: 457px) {
+  .gallery-top p {
+    font-size: 8vw;
+    padding-top: 7vw;
+    padding-bottom: 7vw; }
+    .gallery-top p img {
+      height: 8vw;
+      width: 8vw; } }
+
+.gallery-item {
+  flex-basis: 32.7%;
+  margin-bottom: 6px;
+  opacity: .85;
+  cursor: pointer; }
+
+.gallery-item:hover {
+  opacity: 1; }
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.gallery-content {
+  font-size: .8em; }
+
+.lightbox {
+  position: fixed;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  top: 0;
+  left: 0; }
+
+.lightbox-content {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  margin: 5% auto; }
+
+.lightbox-content img {
+  border-radius: 7px;
+  box-shadow: 0 0 3px 0 rgba(225, 225, 225, 0.25);
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  top: 45%;
+  cursor: pointer; }
+
+.lightbox-prev {
+  left: 0; }
+
+.lightbox-next {
+  right: 0; }
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  opacity: .8; }
+
+@media (max-width: 767px) {
+  .gallery-container {
+    width: 80%; }
+
+  .gallery-item {
+    flex-basis: 49.6%;
+    margin-bottom: 3px; }
+
+  .lightbox-content {
+    width: 80%;
+    height: 60%;
+    margin: 15% auto; }
+
+  #gallery-1 > div:nth-child(9) > img {
+    display: none; }
+
+  #gallery-2 > div:nth-child(9) > img {
+    display: none; }
+
+  #gallery-3 > div:nth-child(9) > img {
+    display: none; } }
+/* Style the buttons inside the tab */
+#content > div.tab {
+  text-align: center;
+  margin-bottom: 12vw; }
+
+.tab button {
+  background-color: #ddd;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  float: none; }
+  @media screen and (max-width: 457px) {
+    .tab button {
+      font-size: 15px;
+      padding: 8px 10px; } }
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  display: inline-block;
+  position: relative;
+  text-align: center; }
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #bcc;
+  display: inline-block;
+  position: relative;
+  text-align: center; }
+
+.contactus {
+  background-color: #F3F3F4;
+  position: relative; }
+  .contactus .contactus-top p {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-top: 4vw;
+    padding-bottom: 4vw; }
+    .contactus .contactus-top p img {
+      height: 3.5vw;
+      width: 3.5vw; }
+  @media screen and (max-width: 457px) {
+    .contactus .contactus-top p {
+      font-size: 8vw;
+      padding-top: 7vw;
+      padding-bottom: 7vw; }
+      .contactus .contactus-top p img {
+        height: 8vw;
+        width: 8vw; } }
+  .contactus .contactus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 6vw;
+    max-width: 1200px; }
+    .contactus .contactus-container .contactus-middle {
+      margin: 0 auto; }
+      .contactus .contactus-container .contactus-middle p {
+        text-align: center;
+        font-size: 1.24vw;
+        margin: 2vw; }
+        @media screen and (max-width: 767px) {
+          .contactus .contactus-container .contactus-middle p {
+            font-size: 3vw; } }
+    .contactus .contactus-container .contactus-bottom {
+      margin: 0 auto; }
+      .contactus .contactus-container .contactus-bottom .contactus-bottom-container {
+        margin: 0 auto; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container form {
+          text-align: center; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row {
+          display: flex;
+          flex-flow: row wrap; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .one-half {
+            flex: 1; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
+            margin-right: 30px; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row input {
+            border-color: #44C5E6;
+            border-radius: 2.5vw;
+            border-width: .15vw;
+            padding: 1vw;
+            margin-bottom: 20px; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
+          padding: 1vw;
+          border-color: #44C5E6;
+          border-radius: 2.5vw;
+          border-width: .15vw;
+          width: 100%; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
+          background-color: #44C5E6;
+          color: #000;
+          font-size: 1.5rem;
+          border: none;
+          border-radius: 40px;
+          width: 10vw;
+          font-family: "Arvo", serif;
+          padding: 1vw; }
+          @media screen and (max-width: 600px) {
+            .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
+              width: 27vw;
+              border-radius: 30px; } }
+        @media only screen and (max-width: 1200px) {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .one-half {
+            width: 100%;
+            margin-right: 0; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
+            margin-right: none; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
+            width: 100%; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container #wpcf7-f6-o1 > form > div.one-row > div:nth-child(1) > span > input {
+            width: 70vw; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container #wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > input {
+            width: 70vw; } }
