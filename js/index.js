@@ -1,28 +1,10 @@
-
-
-
-// document.getElementById("page1").style.display = "block";
-// document.getElementById("page2").style.display = "none";
-// document.getElementById("page3").style.display = "none";
-//
-// function openPage(evt, pageNumber) {
-//   var i, tabcontent, tablinks;
-//   tabcontent = document.getElementsByClassName("tabcontent");
-//
-//   for (i = 0; i < tabcontent.length; i++) {
-//     tabcontent[i].style.display = "none";
-//   }
-//
-//   tablinks = document.getElementsByClassName("tablinks");
-//
-//   for (i = 0; i < tablinks.length; i++) {
-//     tablinks[i].className = tablinks[i].className.replace(" active", "");
-//   }
-//
-//   document.getElementById(pageNumber).style.display = "block";
-//   evt.currentTarget.className += " active";
-// }
-
+//Navbar mobile animation
+$(document).ready(function(){
+ $(".hamburger").click(function(){
+   $(this).toggleClass("is-active");
+   $("#dropdown-menu").toggleClass("drop");
+ });
+});
 
 
 const galleryItem = document.getElementsByClassName("gallery-item");
@@ -84,8 +66,6 @@ function closeLightBox() {
     }
 }
 lightBoxContainer.addEventListener("click", closeLightBox);
-
-
 
 
 

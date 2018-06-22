@@ -1,3 +1,104 @@
+//whitespace below navbar
+
+#whitespace {
+ width: 100%;
+ height: 2px;
+}
+
+//banner image Section
+
+#briefsec{
+ .backpic {
+   background-image: url("./images/shake-nur-banner-photo.jpg");
+   height: 80vh;
+   background-size: cover;
+
+   .text {
+     background-color: #041831dd;
+     height: 80vh;
+     }
+
+   .bckgrndovrl {
+     display: flex;
+     height: 100%;
+     width: 100%;
+     }
+
+   .brief-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 80%;
+     max-width: 1400px;
+     margin: 0 auto;
+
+     @media screen and (max-width: 750px) {
+       flex-direction: column;
+
+     .intro-text.flex1
+      {
+         margin-top: 20vw;
+         padding-left: 0px;
+       }
+
+       .intro-image.flex1 {
+         padding-left: 0px;
+         margin-bottom: 10vw;
+       }
+     }
+     @media screen and (max-width: 420px) {
+       .intro-text.flex1 h1 {
+         font-size: 1.5rem;
+       }
+     }
+
+     .intro-text {
+       align-self: center;
+       padding-left: 78px;
+       h1 {
+         height:auto;
+         width: 100%;
+         background-color:rgba(0,0,0,0.7);
+         border-radius: 0.8em 0.8em 0em 0.8em;
+         border-color: white;
+         border-style: solid;
+         font-family: $font-secondary;
+         font-size: 3rem;
+         color: white;
+         padding: 1.10rem;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         text-align: center;
+       }
+
+       p {
+         background-color: white;
+         color: black;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         width: 15rem;
+         height: 2rem;
+         float: right;
+         border-radius: 0em 0em 0.8em 0.8em;
+         font-family: $font-secondary;
+         font-size: 1.4rem;
+         font-weight: 700;
+         text-align: center;
+       }
+      }
+
+     .intro-image {
+         align-self: center;
+         padding-left: 50px;
+         #pic-intro {
+         height: auto;
+         width: 28rem;
+       }
+      }
+     }
+   }
+ }
+
 //About Us section
 
 .about-us{
@@ -34,7 +135,6 @@
     width: 70%;
     margin: 0 auto 6vw auto;
     max-width: 1200px;
-
     .about-top{
       p{
         text-align: center;
@@ -50,18 +150,13 @@
       columns: 2 100px;
       column-gap: 100px;
       margin-top: 50px;
-
-
       .about-center-left{
-
         h3{
           margin-top: 0px;
         }
       }
       .about-center-right{
-
       }
-
     }
     .about-bottom{
       columns: 2 100px;
@@ -75,14 +170,9 @@
           margin-top: 0px;
         }
       }
-      .about-bottom-right{
-
-      }
     }
   }
 }
-
-
 
 //Home-Building
 .home-building{
@@ -178,7 +268,7 @@
   }
 }
 
-//gallery new
+//gallery
 
 * {
     box-sizing: border-box;
@@ -313,24 +403,14 @@ body {
     #gallery-3 > div:nth-child(9) > img{
       display: none;
     }
-
 }
-// @media (max-width: 480px) {
-//     .gallery-item {
-//         flex-basis: 100%;
-//         margin-bottom: 1px;
-//     }
-//     .lightbox-content {
-//         width: 90%;
-//         margin: 20% auto;
-//     }
-// }
-
 
 /* Style the buttons inside the tab */
-
+body > div.tab{
+    text-align: center !important;
+}
 #content > div.tab{
-  text-align: center;
+
   margin-bottom: 12vw;
 }
 .tab button {

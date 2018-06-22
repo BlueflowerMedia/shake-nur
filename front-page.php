@@ -1,6 +1,29 @@
 <?php get_header(); ?>
 
-<!-- banner -->
+<!-- section white space -->
+<section id="blankspace">
+ <div id="whitespace">.
+ </div>
+</section>
+
+<!-- Section  banner image -->
+<section id="briefsec">
+ <div class="backpic">
+   <div class="text">
+     <div class="bckgrndovrl">
+       <div class="brief-container  flex-row">
+         <div class="intro-text flex1">
+             <h1>We provide construction services to Toronto area.</h1>
+             <p>Inquire Now</p>
+         </div>
+         <div class="intro-image flex1">
+             <img id="pic-intro" src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-character.svg" alt="">
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
 
 
 <!-- About us -->
