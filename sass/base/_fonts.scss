@@ -1,6 +1,14 @@
 @include google-font(Arvo, 300 400 600 700);
 @include google-font(Arial, 300 400 700);
 
+@font-face{
+  font-family: afternight ;
+  src: url("./fonts/After-Night.ttf");
+}
+
+*{
+  font-family: afternight;
+}
 $font-primary: 'Arvo', serif;
 $font-secondary: 'Arial',serif;
 

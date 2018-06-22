@@ -43,13 +43,21 @@
   padding-top: 30px;
 }
 
+#myTopnav > div.logo.flex1 > a{
+	font-family: afternight;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+
+
 #aboutlink #homebuildinglink #gallerylink #contactlink {
  float:right;
 }
 
-.topnav a:hover {
- color: black;
-}
+// .topnav a:hover {
+//  color: black;
+// }
 
 .active {
  background-color: #ffffff;
@@ -127,6 +135,9 @@ img {
       }
     }
   }
+	@media screen and (min-width:1190px){
+		display: none;
+	}
 }
 
 #dropdown-menu> ul > li:nth-child(1) > a{

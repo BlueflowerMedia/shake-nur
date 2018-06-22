@@ -25,6 +25,8 @@
 <body>
     <div class="topnav flex-row" id="myTopnav">
             <div class="logo flex1">
+              <!-- <img id="pic-logo" src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-logo.png" alt=""> -->
+
                 <a href="#" class="responsive">Shake nur</a>
             </div>
             <div class="options flex1">

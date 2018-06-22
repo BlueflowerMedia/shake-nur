@@ -1197,6 +1197,12 @@ object {
   display: block; }
 
 /* MEDIA QUERIES */
+@font-face {
+  font-family: afternight;
+  src: url("./fonts/After-Night.ttf"); }
+* {
+  font-family: afternight; }
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -1347,11 +1353,13 @@ button.nav-contact {
   display: flex;
   padding-top: 30px; }
 
+#myTopnav > div.logo.flex1 > a {
+  font-family: afternight;
+  font-size: 40px;
+  text-decoration: none; }
+
 #aboutlink #homebuildinglink #gallerylink #contactlink {
   float: right; }
-
-.topnav a:hover {
-  color: black; }
 
 .active {
   background-color: #ffffff;
@@ -1409,6 +1417,9 @@ img {
       font-size: 20px; }
       .dropdown ul li a:click {
         background-color: #ff0000; }
+  @media screen and (min-width: 1190px) {
+    .dropdown {
+      display: none; } }
 
 #dropdown-menu > ul > li:nth-child(1) > a {
   color: #ffffff;
