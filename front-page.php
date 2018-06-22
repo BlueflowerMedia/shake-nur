@@ -93,7 +93,7 @@
 
     <div class="home-building-middle flex">
       <div class="home-middle-left">
-        <img id="hammer" src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-banner-photo.jpg" alt="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/shake-nur-banner-photo.jpg" alt="image">
       </div>
       <div class="home-middle-right">
         <h3>Demolition</h3>

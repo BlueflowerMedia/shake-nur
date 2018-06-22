@@ -1355,8 +1355,16 @@ button.nav-contact {
 
 #myTopnav > div.logo.flex1 > a {
   font-family: afternight;
-  font-size: 40px;
-  text-decoration: none; }
+  font-size: 50px;
+  text-decoration: none;
+  margin-left: 50px; }
+  @media screen and (max-width: 500px) {
+    #myTopnav > div.logo.flex1 > a {
+      font-size: 40px; } }
+  @media screen and (max-width: 380px) {
+    #myTopnav > div.logo.flex1 > a {
+      margin-left: 15px;
+      font-size: 35px; } }
 
 #aboutlink #homebuildinglink #gallerylink #contactlink {
   float: right; }
@@ -1425,21 +1433,33 @@ img {
   color: #ffffff;
   font-size: 5vw;
   text-decoration: none; }
+  @media screen and (min-width: 750px) {
+    #dropdown-menu > ul > li:nth-child(1) > a {
+      font-size: 3vw; } }
 
 #dropdown-menu > ul > li:nth-child(2) > a {
   color: #ffffff;
   font-size: 5vw;
   text-decoration: none; }
+  @media screen and (min-width: 750px) {
+    #dropdown-menu > ul > li:nth-child(2) > a {
+      font-size: 3vw; } }
 
 #dropdown-menu > ul > li:nth-child(3) > a {
   color: #ffffff;
   font-size: 5vw;
   text-decoration: none; }
+  @media screen and (min-width: 750px) {
+    #dropdown-menu > ul > li:nth-child(3) > a {
+      font-size: 3vw; } }
 
 #dropdown-menu > ul > li:nth-child(4) > a {
   color: #ffffff;
   font-size: 5vw;
   text-decoration: none; }
+  @media screen and (min-width: 750px) {
+    #dropdown-menu > ul > li:nth-child(4) > a {
+      font-size: 3vw; } }
 
 .drop {
   transform: translateY(0);
@@ -1710,10 +1730,12 @@ img {
       @media screen and (max-width: 950px) {
         .home-building .home-building-container .home-building-middle {
           flex-direction: column; }
-          .home-building .home-building-container .home-building-middle .home-middle-left img {
-            margin-top: 20px;
-            padding: 0px;
-            margin: 0px; } }
+          .home-building .home-building-container .home-building-middle .home-middle-left {
+            text-align: center; }
+            .home-building .home-building-container .home-building-middle .home-middle-left img {
+              margin-top: 20px;
+              padding: 0px;
+              margin: 0px; } }
     .home-building .home-building-container .home-building-bottom p {
       margin-top: 0px; }
 
