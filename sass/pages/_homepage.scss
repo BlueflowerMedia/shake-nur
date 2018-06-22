@@ -108,8 +108,6 @@
       text-align: center;
       font-size: 4vw;
       font-weight: 700;
-      padding-top: 4vw;
-      padding-bottom: 4vw;
       img{
         height: 3.5vw;
         width: 3.5vw;
@@ -118,8 +116,6 @@
     @media screen and (max-width: 457px){
       p{
         font-size: 8vw;
-        padding-top: 7vw;
-        padding-bottom: 7vw;
         img{
           height: 8vw;
           width: 8vw;
@@ -208,13 +204,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
-    //margin: 10vw auto;
     margin: 0 auto 0vw auto;
-    //padding:10px;
     max-width: 1200px;
-    // max-width: 1200px;
-    // margin:0 20% 0 20%;
-    // padding-top: 5%;
     padding-bottom: 7vw;
 
     .home-building-top{
@@ -229,7 +220,6 @@
       }
     }
     .home-building-middle{
-      //margin: 40px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -237,7 +227,6 @@
           flex: 1;
           img{
             max-width: 100%;
-            margin-top: 100px;
             padding-right: 20px;
             padding-bottom: 20px;
 
@@ -282,14 +271,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 70%;
-  //margin: 10vw auto;
-  margin: 0 auto 6vw auto;
+  margin: 3vw auto 1vw auto;
   padding:10px;
   max-width: 1200px;
   background-color: #fff;
-//box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
   width: 70%;
-  margin: 6vw auto;
   padding: 10px;
 }
 
@@ -298,8 +284,7 @@ body {
         text-align: center;
         font-size: 4vw;
         font-weight: 700;
-        padding-top: 4vw;
-        padding-bottom: 4vw;
+        padding-top: 2vw;
         img{
           height: 3.5vw;
           width: 3.5vw;
@@ -415,7 +400,6 @@ body > div.tab{
   margin-bottom: 12vw;
 }
 .tab button {
-    //border: 1px solid #ccc;
     background-color: #ddd;
     outline: none;
     cursor: pointer;
@@ -461,15 +445,12 @@ body > div.tab{
 .contactus{
   background-color:#F3F3F4 ;
   position: relative;
-  //margin: 0 auto 6vw auto;
-
   .contactus-top{
     p{
       text-align: center;
       font-size: 4vw;
       font-weight: 700;
       padding-top: 4vw;
-      padding-bottom: 4vw;
       img{
         height: 3.5vw;
         width: 3.5vw;
@@ -479,7 +460,6 @@ body > div.tab{
       p{
         font-size: 8vw;
         padding-top: 7vw;
-        padding-bottom: 7vw;
         img{
           height: 8vw;
           width: 8vw;
@@ -492,23 +472,16 @@ body > div.tab{
     flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
-    //margin: 10vw auto;
     margin: 0 auto 0 auto;
     padding-bottom: 6vw;
-    //padding:10px;
     max-width: 1200px;
-    // position: absolute;
-    // left: 50%;
-    // transform: translateX(-50%);
-
-
 
     .contactus-middle{
       margin:0 auto;
       p{
         text-align: center;
         font-size: 1.24vw;
-        margin: 2vw;
+        margin: 2vw auto 4vw auto;
         @media screen and (max-width:1400px){
           font-size: 1.8vw;
         }
@@ -517,7 +490,6 @@ body > div.tab{
           font-size: 3vw;
         }
       }
-
     }
 
     .contactus-bottom{
@@ -533,26 +505,21 @@ body > div.tab{
           display: flex;
           flex-flow: row wrap;
 
-
           .one-half {
             flex: 1;
-            //margin-right: 30px;
-
           }
-
           .first{
             margin-right: 30px;
           }
 
           input{
-              border-color: #44C5E6;
-              border-radius: 2.5vw;
-              border-width: .15vw;
-              padding: 1vw;
-              margin-bottom: 20px;
+          border-color: #44C5E6;
+          border-radius: 2.5vw;
+          border-width: .15vw;
+          padding: 1vw;
+          margin-bottom: 20px;
           }
         }
-
         textarea{
           padding: 1vw;
           border-color: #44C5E6;
@@ -595,10 +562,8 @@ body > div.tab{
           #wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > input{
             width: 70vw;
           }
-
         }
       }
-      }
-
+    }
   }
 }

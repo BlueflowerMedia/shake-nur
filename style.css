@@ -1320,8 +1320,6 @@ button.nav-contact {
 .topnav {
   overflow: hidden;
   background-color: #2a2a2a;
-  display: flex;
-  align-items: stretch;
   line-height: 60px;
   height: 80px; }
   @media (max-width: 1200px) {
@@ -1634,17 +1632,13 @@ img {
   .about-us .about-top p {
     text-align: center;
     font-size: 4vw;
-    font-weight: 700;
-    padding-top: 4vw;
-    padding-bottom: 4vw; }
+    font-weight: 700; }
     .about-us .about-top p img {
       height: 3.5vw;
       width: 3.5vw; }
   @media screen and (max-width: 457px) {
     .about-us .about-top p {
-      font-size: 8vw;
-      padding-top: 7vw;
-      padding-bottom: 7vw; }
+      font-size: 8vw; }
       .about-us .about-top p img {
         height: 8vw;
         width: 8vw; } }
@@ -1720,7 +1714,6 @@ img {
         flex: 1; }
         .home-building .home-building-container .home-building-middle .home-middle-left img {
           max-width: 100%;
-          margin-top: 100px;
           padding-right: 20px;
           padding-bottom: 20px; }
       .home-building .home-building-container .home-building-middle .home-middle-right {
@@ -1750,20 +1743,18 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 70%;
-  margin: 0 auto 6vw auto;
+  margin: 3vw auto 1vw auto;
   padding: 10px;
   max-width: 1200px;
   background-color: #fff;
   width: 70%;
-  margin: 6vw auto;
   padding: 10px; }
 
 .gallery-top p {
   text-align: center;
   font-size: 4vw;
   font-weight: 700;
-  padding-top: 4vw;
-  padding-bottom: 4vw; }
+  padding-top: 2vw; }
   .gallery-top p img {
     height: 3.5vw;
     width: 3.5vw; }
@@ -1901,16 +1892,14 @@ body > div.tab {
     text-align: center;
     font-size: 4vw;
     font-weight: 700;
-    padding-top: 4vw;
-    padding-bottom: 4vw; }
+    padding-top: 4vw; }
     .contactus .contactus-top p img {
       height: 3.5vw;
       width: 3.5vw; }
   @media screen and (max-width: 457px) {
     .contactus .contactus-top p {
       font-size: 8vw;
-      padding-top: 7vw;
-      padding-bottom: 7vw; }
+      padding-top: 7vw; }
       .contactus .contactus-top p img {
         height: 8vw;
         width: 8vw; } }
@@ -1927,7 +1916,7 @@ body > div.tab {
       .contactus .contactus-container .contactus-middle p {
         text-align: center;
         font-size: 1.24vw;
-        margin: 2vw; }
+        margin: 2vw auto 4vw auto; }
         @media screen and (max-width: 1400px) {
           .contactus .contactus-container .contactus-middle p {
             font-size: 1.8vw; } }
