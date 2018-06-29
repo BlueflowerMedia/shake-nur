@@ -1991,7 +1991,7 @@ body > div.tab {
             width: 70vw;
             outline: none; } }
 
-#wpcf7-f6-o1 > form > div.one-row > div.one-half.first > span > span,
-#wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > span,
-#wpcf7-f6-o1 > form > div.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+.one-row > div.one-half.first > span > span,
+.one-row > div:nth-child(2) > span > span,
+.wpcf7-validation-errors {
   font-family: "Arvo", serif; }
