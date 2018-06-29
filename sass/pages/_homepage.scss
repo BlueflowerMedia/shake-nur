@@ -170,6 +170,13 @@
   }
 }
 
+
+#about > div.about-container > div.about-center > div.about-center-left > p,
+#about > div.about-container > div.about-center > div.about-center-right > p,
+#about > div.about-container > div.about-bottom > div.about-bottom-left > p,
+#about > div.about-container > div.about-bottom > div.about-bottom-right > p{
+  text-align: justify;
+}
 //Home-Building
 .home-building{
   background-color:#F3F3F4;
@@ -257,6 +264,11 @@
     }
   }
 }
+#homebuilding > div.home-building-container > div.home-building-middle.flex > div.home-middle-right > p,
+#homebuilding > div.home-building-container > div.home-building-bottom > p{
+  text-align: justify;
+}
+
 
 //gallery
 
@@ -394,6 +406,7 @@ body {
 /* Style the buttons inside the tab */
 body > div.tab{
     text-align: center !important;
+    padding-top: 30px;
 }
 #content > div.tab{
 
@@ -518,6 +531,7 @@ body > div.tab{
           border-width: .15vw;
           padding: 1vw;
           margin-bottom: 20px;
+          outline: none;
           }
         }
         textarea{
@@ -526,6 +540,7 @@ body > div.tab{
           border-radius: 2.5vw;
           border-width: .15vw;
           width: 100%;
+          outline: none;
         }
         .wpcf7-submit {
           background-color: #44C5E6;
@@ -536,6 +551,7 @@ body > div.tab{
           width: 10vw;
           font-family: $font-primary;
           padding: 1vw;
+          outline: none;
           @media screen and (max-width: 600px){
             width: 27vw;
             border-radius: 30px;
@@ -555,15 +571,25 @@ body > div.tab{
 
           textarea{
             width: 100%;
+            outline: none;
           }
           #wpcf7-f6-o1 > form > div.one-row > div:nth-child(1) > span > input{
             width: 70vw;
+            outline: none;
           }
           #wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > input{
             width: 70vw;
+            outline: none;
           }
         }
       }
     }
   }
+}
+
+//changing the alert font-size
+#wpcf7-f6-o1 > form > div.one-row > div.one-half.first > span > span,
+#wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > span,
+#wpcf7-f6-o1 > form > div.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors{
+  font-family: $font-primary;
 }

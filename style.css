@@ -1550,7 +1550,7 @@ img {
 #footer-text {
   text-align: center;
   color: #ffffff;
-  font-size: 1.9vw;
+  font-size: 1.6vw;
   letter-spacing: .8px; }
 
 @media screen and (max-width: 600px) {
@@ -1672,6 +1672,12 @@ img {
       .about-us .about-container .about-bottom .about-bottom-left h3 {
         margin-top: 0px; }
 
+#about > div.about-container > div.about-center > div.about-center-left > p,
+#about > div.about-container > div.about-center > div.about-center-right > p,
+#about > div.about-container > div.about-bottom > div.about-bottom-left > p,
+#about > div.about-container > div.about-bottom > div.about-bottom-right > p {
+  text-align: justify; }
+
 .home-building {
   background-color: #F3F3F4; }
   .home-building .home-building-top p {
@@ -1731,6 +1737,10 @@ img {
               margin: 0px; } }
     .home-building .home-building-container .home-building-bottom p {
       margin-top: 0px; }
+
+#homebuilding > div.home-building-container > div.home-building-middle.flex > div.home-middle-right > p,
+#homebuilding > div.home-building-container > div.home-building-bottom > p {
+  text-align: justify; }
 
 * {
   box-sizing: border-box; }
@@ -1849,7 +1859,8 @@ body {
     display: none; } }
 /* Style the buttons inside the tab */
 body > div.tab {
-  text-align: center !important; }
+  text-align: center !important;
+  padding-top: 30px; }
 
 #content > div.tab {
   margin-bottom: 12vw; }
@@ -1941,13 +1952,15 @@ body > div.tab {
             border-radius: 2.5vw;
             border-width: .15vw;
             padding: 1vw;
-            margin-bottom: 20px; }
+            margin-bottom: 20px;
+            outline: none; }
         .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
           padding: 1vw;
           border-color: #44C5E6;
           border-radius: 2.5vw;
           border-width: .15vw;
-          width: 100%; }
+          width: 100%;
+          outline: none; }
         .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
           background-color: #44C5E6;
           color: #000;
@@ -1956,7 +1969,8 @@ body > div.tab {
           border-radius: 40px;
           width: 10vw;
           font-family: "Arvo", serif;
-          padding: 1vw; }
+          padding: 1vw;
+          outline: none; }
           @media screen and (max-width: 600px) {
             .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
               width: 27vw;
@@ -1968,8 +1982,16 @@ body > div.tab {
           .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
             margin-right: none; }
           .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
-            width: 100%; }
+            width: 100%;
+            outline: none; }
           .contactus .contactus-container .contactus-bottom .contactus-bottom-container #wpcf7-f6-o1 > form > div.one-row > div:nth-child(1) > span > input {
-            width: 70vw; }
+            width: 70vw;
+            outline: none; }
           .contactus .contactus-container .contactus-bottom .contactus-bottom-container #wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > input {
-            width: 70vw; } }
+            width: 70vw;
+            outline: none; } }
+
+#wpcf7-f6-o1 > form > div.one-row > div.one-half.first > span > span,
+#wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > span,
+#wpcf7-f6-o1 > form > div.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+  font-family: "Arvo", serif; }
