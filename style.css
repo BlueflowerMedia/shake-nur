@@ -1984,10 +1984,10 @@ body > div.tab {
           .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
             width: 100%;
             outline: none; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container #wpcf7-f6-o1 > form > div.one-row > div:nth-child(1) > span > input {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row > div:nth-child(1) > span > input {
             width: 70vw;
             outline: none; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container #wpcf7-f6-o1 > form > div.one-row > div:nth-child(2) > span > input {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row > div:nth-child(2) > span > input {
             width: 70vw;
             outline: none; } }
 
