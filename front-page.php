@@ -13,7 +13,7 @@
      <div class="bckgrndovrl">
        <div class="brief-container  flex-row">
          <div class="intro-text flex1">
-             <h1>We provide construction services to Toronto area.</h1>
+             <h1>We provide construction services to Toronto area fga;la;g.</h1>
              <p>Inquire Now</p>
          </div>
          <div class="intro-image flex1">
