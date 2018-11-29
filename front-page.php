@@ -41,36 +41,27 @@
     <div class="about-center">
       <div class="about-center-left">
         <h3>Our History</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh dignissim nisi dapibus
-           facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-           Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-          facilisis. Pellentesque ut nulla malesuada.
+        <p>Shake nur has secured a place for itself as one of a leading construction company. the company has been serving continuously with its full effort and mobilizing its entire manpower and resources in the major construction works provided to it. Build on its customer’s trust and support, Shake nur strives to meet their ever-growing aspirations of a better living experience by bringing together the best of design, technology and innovation in each project. Having an experience of more than 30 years in construction field, the company is well known for its work in sectors like Buildings, Roads, Bridges.
         </p>
       </div>
       <div class="about-center-right">
         <h3>Our Goals</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh dignissim nisi dapibus
-           facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-           Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-          Lorem ipsum dolor sit amet, consectetur .
+        <p>To further develop competency and excellence in work with proper use of  knowledge and skills acquired through various past projects. Also, to meet the standard of quality in the construction project as required by the clients and customers.
+            To provide our commercial, institutional and industrial clients with superior professional services, in a timely and economical fashion, throughout the construction process.
+            To conduct all business activities with integrity, honesty and dedication at all times.
+            To put safety and environmental issues at the forefront of all our business activities, and continuously seek ways to improve on the standards.
         </p>
       </div>
     </div>
     <div class="about-bottom">
       <div class="about-bottom-left">
         <h3>Our Approach</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh dignissim nisi dapibus
-           facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-           Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-          facilisis. Pellentesque ut nulla malesuada.
+        <p>With extensive experience on construction industry for more than 30 years, Shake nur has developed core competencies to provide our clients with an efficient, fair, and reliable service that is of great value for money. With the depth of our experience along with the proven track record of successful completion of projects, it can be confirmed about the effectiveness of our management systems and procedures. Each project is managed by Quality Surveying (QS) Team, which provide planning, variations in costing, contract queries discussion, and payment along with the regular site visit to ensure that jobs run smoothly and the project is on track. Shake nur operates a Quality Management System (QMS) in order to effectively control all aspects of the construction process, with checks in place and signed off at all pivotal stages of construction.
         </p>
       </div>
       <div class="about-bottom-right">
         <h3>Client Relations</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh dignissim nisi dapibus
-           facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-           Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-           Praesent luctus nibh dignissim nisi dapibus.
+        <p>A close working relationship between client and contractor is important for any project to succeed. The success of any engineering project often revolves around the quality of the relationship between client and service provider. A good working relationship should be based on trust and understanding between all parties. At Shakenur, building strong relationships with our customers is a top priority for everyone. As a result, we have a great number of long-standing clients who we have worked with for up to 30 years. During this time, the roles and type of work we deliver has evolved.
         </p>
       </div>
 
@@ -97,24 +88,13 @@
       </div>
       <div class="home-middle-right">
         <h3>Demolition</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh dignissim nisi dapibus
-           facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-           ipsum eget metus dictum, sit amet hendrerit magna scelerisque. Sed hendrerit vulputate nulla sed tempor.
-           Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-          facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia.
+        <p>Supported by our talented professionals, we are offering an exceptional assortment of Demolition Services to our customers. We are engaged in offering a wide collection of Demolition Services. We have immense expertise in providing sound, hassle-free and concrete demolition services to our clients. Apart from this, these services are cost-effective and as per the industry standards.
         </p>
       </div>
     </div>
     <div class="home-building-bottom">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh dignissim nisi dapibus
-         facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-         ipsum eget metus dictum, sit amet hendrerit magna scelerisque. Sed hendrerit vulputate nulla sed tempor.
-         Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-         Nulla interdum maximus felis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh
-            facilisis. Pellentesque ut nulla malesuada, scelerisque massa at, consequat velit. Phasellus lacinia
-            ipsum eget metus dictum, sit amet hendrerit magna scelerisque. Sed hendrerit vulputate nulla sed tempor.
-            Nullam pharetra aliquam libero sit amet consequat. Praesent quis tincidunt risus, sed rhoncus enim.
-            Nulla interdum maximus felis.
+      <p>
+        
        </p>
     </div>
 
